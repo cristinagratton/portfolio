@@ -1,0 +1,156 @@
+/* Include padding and porder in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+/*Remove margins and padding from list*/
+#ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*Style table*/
+table {
+  width: 100%;
+}
+
+
+/*Style the list items*/
+table tr {
+  cursor: pointer;
+  position: relative;
+  padding: 20px;
+  background-color: #fbf9f4;
+  font-size: 18px;
+  transition: 0.2s;
+  height: 50px;
+
+  /*make the list items unselectable*/
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/*set all odd list items to a different color*/
+table tr:nth-child(odd) {
+  background-color: #ece4d8;
+}
+
+/*darker background color on hover*/
+table tr:hover {
+  background-color: #dfd4bb;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px;
+}
+
+.close:hover {
+  background-color: #d49282;
+  color: white;
+}
+
+/*Style Done Button*/
+.move {
+  position: absolute;
+  right: 50px;
+  top: 0;
+  padding: 12px 16px;
+}
+
+.move:hover {
+  background-color: #d49282;
+  color: white;
+}
+
+
+/*style the header*/
+header {
+  background-color: #d49282;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+}
+
+/*style title of completed list*/
+.title {
+  background-color: #d49282;
+  padding:20px;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+/*clear floats after the header*/
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*sytle the input*/
+input {
+  margin: 0;
+  border: solid;
+  border-color: #ece4d8;
+  border-radius: 0;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+  height: 40px;
+}
+
+#myInput {
+  width: 45%;
+}
+
+#dueDate {
+  width: 30%;
+}
+
+
+/*style the "add" button */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background-color: #dcc8b5;
+  color: #fbf9f4;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  height: 40px;
+}
+
+.addBtn:hover {
+  background-color: #dfd4bb;
+}
+
+/*style the "sort" button */
+.sortBtn {
+  padding: 10px;
+  width: 25%;
+  background-color: #dcc8b5;
+  color: #fbf9f4;
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.sortBtn:hover {
+  background-color: #dfd4bb;
+}

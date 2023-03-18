@@ -1,0 +1,189 @@
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  float: left;
+  width: 25%;
+  padding: 0px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* style title */
+
+.title {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  padding-bottom: 100px;
+  text-decoration: underline;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  color: black;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: gray;
+  color: white;
+}
+
+/*style profile picture */
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Resize images */
+.container img {
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+
+
+/* Textstyling */
+h1, h2, h3, h4, p {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* contact info styling */
+.contact {
+  display: block;
+  margin-left: 15px;
+  margin: 2px 0 0 0;
+}
+
+/* Header styling */
+header {
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+header h1 {
+  color: black;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+
+
+/* sample containers styling */
+body {
+  width: 100%;
+  float: left;
+}
+
+.links,
+.sampleimage,
+.threedays {
+  width: 33.33%;
+  float: left;
+}
+
+.sampleimage,
+.threedays {
+  height: 550px;
+  overflow: hidden;
+}
+
+.threedays h4, p {
+  padding-left: 20px;
+}
+
+/*sample links styling */
+.links h2 {
+  padding-left: 20px;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 30px;
+  padding: 10px;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+ul li a{
+  color: gray;
+
+}
+
+ul li a.active {
+  background-color: #E7E7E7;
+  color: black;
+}
+
+/* custom section styling */
+.links,
+.selection,
+.custom {
+  width: 33.33%;
+  float: left;
+}
+
+.selection,
+.custom {
+  height: 520px;
+  overflow: hidden;
+}
+
+.custom h2, p, label {
+  padding-left: 20px;
+}
+
+/*footer stick*/
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+/*three days, activitylist, custom adventure sample styling*/
+.threedays,
+.activitylist,
+.youradventure {
+  background-color: #E7E7E7;
+}
