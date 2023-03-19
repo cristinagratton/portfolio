@@ -1,0 +1,15 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" [matMenuTriggerFor]="menu">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Keeping Score</span>
+    <span class="flex-spacer"></span>
+</mat-toolbar>
+
+<mat-menu #menu="matMenu">
+ <button mat-menu-item>NFL</button>
+ <button mat-menu-item>Men's College Football</button>
+ <button mat-menu-item>NBA</button>
+ <button mat-menu-item>Men's College Basketball</button>
+ <button mat-menu-item>Women's College Basketball</button>
+</mat-menu>
