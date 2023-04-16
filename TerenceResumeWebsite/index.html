@@ -15,120 +15,157 @@
 
   </head>
   <body>
-
-    <header>
-      <div>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-          <div class="topnav" id="myTopnav">
-            <a href="index.html">Home</a>
-            <a href="projects.html">Research</a>
-            <a href="publications.html">Publications</a>
-            <a href="contact.html">Contact</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-          </div>
-      </div>
-    </header>
-
-  <div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-    <img src="Resources/images/160510_fluorescamine_plate.jpg" style="width:100%">
-    <div class="text-block">
-      <h1>Terence S. Crofts</h1>
-      <h3>Research Assistant Professor</h3>
-      <h3>Northwestern University</h3>
-    </div>
+  
+    <!-- Navigation -->
+<div class="navigation">
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="contact.html">Contact</a>
   </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-    <img src="Resources/images/190603_Tn5Gel_longdestain.jpg" style="width:100%">
-    <div class="text-block">
-      <h1>Terence S. Crofts</h1>
-      <h3>Research Assistant Professor</h3>
-      <h3>Northwestern University</h3>
-    </div>
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="Resources/images/20190811_123156.jpg" style="width:100%">
-    <div class="text-block">
-      <h1>Terence S. Crofts</h1>
-      <h3>Research Assistant Professor</h3>
-      <h3>Northwestern University</h3>
-    </div>
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img src="Resources/images/plates.jpg" style="width:100%">
-    <div class="text-block">
-      <h1>Terence S. Crofts</h1>
-      <h3>Research Assistant Professor</h3>
-      <h3>Northwestern University</h3>
-    </div>
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img src="Resources/images/diskdiffusion.jpg" style="width:100%">
-    <div class="text-block">
-      <h1>Terence S. Crofts</h1>
-      <h3>Research Assistant Professor</h3>
-      <h3>Northwestern University</h3>
-    </div>
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-    <img src="Resources/images/fortwitter.jpg" style="width:100%">
-    <div class="text-block">
-      <h1>Terence S. Crofts</h1>
-      <h3>Research Assistant Professor</h3>
-      <h3>Northwestern University</h3>
-    </div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
-<br>
+ 
+<!-- Slider Wrapper -->
+<div class="css-slider-wrapper">
+  <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
+  <input type="radio" name="slider" class="slide-radio2" id="slider_2">
+  <input type="radio" name="slider" class="slide-radio3" id="slider_3">
+  <input type="radio" name="slider" class="slide-radio4" id="slider_4">
+  <input type="radio" name="slider" class="slide-radio5" id="slider_5">
+  <input type="radio" name="slider" class="slide-radio6" id="slider_6">
+  <input type="radio" name="slider" class="slide-radio7" id="slider_7">
+
+  <!-- Slider Pagination -->
+  <div class="slider-pagination">
+    <label for="slider_1" class="page1"></label>
+    <label for="slider_2" class="page2"></label>
+    <label for="slider_3" class="page3"></label>
+    <label for="slider_4" class="page4"></label>
+    <label for="slider_5" class="page5"></label>
+    <label for="slider_6" class="page6"></label>
+    <label for="slider_7" class="page7"></label>
+  </div>
+ 
+  <!-- Slider #1 -->
+  <div class="slider slide-1">
+    <div class="text-block">
+      <h1>Terence S. Crofts</h1>
+      <h3>Assistant Professor</h3>
+      <h3>Florida St. University</h3>
+    </div>
+    <div class="number-pagination">
+      <span>1</span>
+    </div>
+  </div>
+ 
+  <!-- Slider #2 -->
+  <div class="slider slide-2">
+    <div class="text-block">
+      <h1>Terence S. Crofts</h1>
+      <h3>Assistant Professor</h3>
+      <h3>Florida St. University</h3>
+    </div>
+    <div class="number-pagination">
+      <span>2</span>
+    </div>
+  </div>
+ 
+  <!-- Slider #3 -->
+  <div class="slider slide-3">
+    <div class="text-block">
+      <h1>Terence S. Crofts</h1>
+      <h3>Assistant Professor</h3>
+      <h3>Florida St. University</h3>
+    </div>
+    <div class="number-pagination">
+      <span>3</span>
+    </div>
+  </div>
+ 
+  <!-- Slider #4 -->
+  <div class="slider slide-4">
+    <div class="text-block">
+      <h1>Terence S. Crofts</h1>
+      <h3>Assistant Professor</h3>
+      <h3>Florida St. University</h3>
+    </div>
+    <div class="number-pagination">
+      <span>4</span>
+    </div>
+  </div>
+
+  <!-- Slider #5 -->
+  <div class="slider slide-5">
+    <div class="text-block">
+      <h1>Terence S. Crofts</h1>
+      <h3>Assistant Professor</h3>
+      <h3>Florida St. University</h3>
+    </div>
+    <div class="number-pagination">
+      <span>5</span>
+    </div>
+  </div>
+
+  <!-- Slider #6 -->
+  <div class="slider slide-6">
+    <div class="text-block">
+      <h1>Terence S. Crofts</h1>
+      <h3>Assistant Professor</h3>
+      <h3>Florida St. University</h3>
+    </div>
+    <div class="number-pagination">
+      <span>6</span>
+    </div>
+  </div>
+
+  <!-- Slider #7 -->
+  <div class="slider slide-7">
+    <div class="text-block">
+      <h1>Terence S. Crofts</h1>
+      <h3>Assistant Professor</h3>
+      <h3>Florida St. University</h3>
+    </div>
+    <div class="number-pagination">
+      <span>7</span>
+    </div>
+  </div>
+</div>
+
+
+ 
 
 <script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-// <!-- // Next/previous controls -->
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
+var TIMEOUT = 6000;
+ 
+ var interval = setInterval(handleNext, TIMEOUT);
+  
+ function handleNext() {
+  
+   var $radios = $('input[class*=&quot;slide-radio&quot;]');
+   var $activeRadio = $('input[class*=&quot;slide-radio&quot;]:checked');
+  
+   var currentIndex = $activeRadio.index();
+   var radiosLength = $radios.length;
+  
+   $radios
+     .attr('checked', false);
+  
+   if (currentIndex >= radiosLength - 1) {
+  
+     $radios
+       .first()
+       .attr('checked', true);
+  
+   } else {
+  
+     $activeRadio
+       .next('input[class*=&quot;slide-radio&quot;]')
+       .attr('checked', true);
+  
+   }
+  
+ }
 </script>
 
 
